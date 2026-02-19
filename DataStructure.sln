@@ -15,6 +15,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. Stack", "5. Stack\5. Sta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. StackMaze", "6. StackMaze\6. StackMaze.vcxproj", "{1AA53382-3CCF-447C-8C6B-D69C9A9F75D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7. Queue", "7. Queue\7. Queue.vcxproj", "{4BDB1AC6-DFEE-46C7-9307-EF0D7FC5FBE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8. QueueMaze", "8. QueueMaze\8. QueueMaze.vcxproj", "{20B35322-F09B-4A60-B1F8-B4044807514A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +49,14 @@ Global
 		{1AA53382-3CCF-447C-8C6B-D69C9A9F75D4}.Debug|x64.Build.0 = Debug|x64
 		{1AA53382-3CCF-447C-8C6B-D69C9A9F75D4}.Release|x64.ActiveCfg = Release|x64
 		{1AA53382-3CCF-447C-8C6B-D69C9A9F75D4}.Release|x64.Build.0 = Release|x64
+		{4BDB1AC6-DFEE-46C7-9307-EF0D7FC5FBE1}.Debug|x64.ActiveCfg = Debug|x64
+		{4BDB1AC6-DFEE-46C7-9307-EF0D7FC5FBE1}.Debug|x64.Build.0 = Debug|x64
+		{4BDB1AC6-DFEE-46C7-9307-EF0D7FC5FBE1}.Release|x64.ActiveCfg = Release|x64
+		{4BDB1AC6-DFEE-46C7-9307-EF0D7FC5FBE1}.Release|x64.Build.0 = Release|x64
+		{20B35322-F09B-4A60-B1F8-B4044807514A}.Debug|x64.ActiveCfg = Debug|x64
+		{20B35322-F09B-4A60-B1F8-B4044807514A}.Debug|x64.Build.0 = Debug|x64
+		{20B35322-F09B-4A60-B1F8-B4044807514A}.Release|x64.ActiveCfg = Release|x64
+		{20B35322-F09B-4A60-B1F8-B4044807514A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

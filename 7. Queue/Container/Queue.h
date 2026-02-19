@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 // FIFO 형태로 동작하는 큐 클래스.
 template<typename T, int capacity = 10>
@@ -12,10 +13,10 @@ public:
 	}
 
 	// 추가 함수.
-	bool Enqueue(const T& avlue)
+	bool Enqueue(const T& value)
 	{
-		if (isFull())
-			return fasle;
+		if (IsFull())
+			return false;
 
 		//
 		rear = (rear + 1) % (capacity + 1);
@@ -30,19 +31,19 @@ public:
 			return false;
 
 		front = (front + 1) % (capacity + 1);
-		outValue = data[outvalue];
+		outvalue = data[front];
 
 		// 값 비우기.
 		data[front] = T();
 	}
 
 	// 삭제하지 않고 제일 앞의 값 반환하는 함수.
-	bool Peeek(T& outValue)
+	bool Peek(T& outValue)
 	{
 		if (IsEmpty())
 			return false;
 
-		outValue = data[(front + 1) % ((capacity + 1)]
+		outValue = data[(front + 1) % (capacity + 1)];
 
 		return true;
 	}
@@ -54,7 +55,7 @@ public:
 		const int max = (front > rear) ? rear : (rear + capacity + 1);
 		for (int i = front + 1; i <= max; i++)
 		{
-			std::cout << " " << data[i];
+			std::cout << " " << data[i % (capacity + 1)];
 		}
 	}
 
